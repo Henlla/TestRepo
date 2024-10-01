@@ -7,4 +7,5 @@ public class ShopObject : BaseObjectSO
     // test conflict
     //string a;
     //int u;
+    // test
 }
