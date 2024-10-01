@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b132e783408838c4db2bb479e81b8604
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - chopBtn: {instanceID: 0}
+  - cancelChopBtn: {instanceID: 0}
+  - chopTimerPrefab: {fileID: 8096368711773343848, guid: afab7c098603e8a45920c7b409209c07, type: 3}
+  - treeRecordManager: {fileID: 11400000, guid: 1a22b776d53e34f4c9b40f3d7a0a6767, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
