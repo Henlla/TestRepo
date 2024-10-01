@@ -5,4 +5,6 @@ public class ShopObject : BaseObjectSO
 {
     public List<BaseShopItemSO> listItem;
     // test conflict
+    //string a;
+    //int u;
 }
