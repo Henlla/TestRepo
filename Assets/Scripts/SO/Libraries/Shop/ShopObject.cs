@@ -4,4 +4,5 @@ using UnityEngine;
 public class ShopObject : BaseObjectSO
 {
     public List<BaseShopItemSO> listItem;
+    // test conflict
 }
