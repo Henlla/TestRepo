@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d16adde85ff7f44eab90427ea80c6ca, type: 3}
   m_Name: ObjectRecords
   m_EditorClassIdentifier: 
-  Name: 
-  Sprite: {fileID: 21300000, guid: 08a1cd8ec813804408c1360bf52dd027, type: 3}
-  Prefab: {fileID: 8650477326762914372, guid: eea9243211fcc2d4a88620b1d34e9c72, type: 3}
-  ObjectType: 0
+  ListObject:
+  - ObjectItem: {fileID: 11400000, guid: 0c4303e32218f5f4a9b4c40b654eed2e, type: 2}
+    Prefab: {fileID: 7085461323461250710, guid: d2ddcfad43a572f41856bffcd8abfd82, type: 3}
+  - ObjectItem: {fileID: 11400000, guid: c7b13e721e19acd41986016d6d55a2ca, type: 2}
+    Prefab: {fileID: 8459328852845036580, guid: fbabaabc2c7543242a861186ee659429, type: 3}

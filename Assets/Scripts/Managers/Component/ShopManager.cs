@@ -1,9 +1,10 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ShopManager : Singleton<ShopManager>
 {
     [SerializeField] private ShopCard shopCardPrefabs;
-    [SerializeField] private Transform shopContainer;
     [SerializeField] private ShopObject shopObject;
     public WareHouse wareHouse;
     [SerializeField] private Player player;
@@ -14,7 +15,15 @@ public class ShopManager : Singleton<ShopManager>
 
     public void OpenShop()
     {
-        LoadShop();
+        if (isShopOpen)
+        {
+            return;
+        }
+        UIManager.Instance.ShopPanel.SetActive(true);
+        // LoadShop();
+        LoadShop(new List<ItemType> { ItemType.Seeds, ItemType.Fertilizer });
+        CameraMovement.Instance.SetCameraMoveDisable(true);
+        isShopOpen = true;
     }
 
     public void CloseShop()
@@ -40,10 +49,14 @@ public class ShopManager : Singleton<ShopManager>
 
     public void LoadShop(List<ItemType> types)
     {
-        for (int i = 0; i < items.Length; i++)
+        RemoveItemWhenClosePanel();
+        foreach (var item in shopObject.listItem)
         {
-            ShopCard card = Instantiate(shopCardPrefabs,shopContainer);
-            card.ConfigShopCard(items[i]);
+            if (types.Contains(item.ItemType))
+            {
+                ShopCard card = Instantiate(shopCardPrefabs, UIManager.Instance.ShopContainer);
+                card.ConfigShopCard(item);
+            }
         }
     }
 
@@ -80,4 +93,20 @@ public class ShopManager : Singleton<ShopManager>
         }
     }
 
+    public void LoadSeednFertilizereItems()
+    {
+        LoadShop(new List<ItemType> { ItemType.Seeds, ItemType.Fertilizer });
+    }
+    public void LoadEnclosureItems()
+    {
+        LoadShop(new List<ItemType> { ItemType.Enclosure });
+    }
+    public void LoadRoadItems()
+    {
+        LoadShop(new List<ItemType> { ItemType.Road, ItemType.Decorate });
+    }
+    public void LoadToolItems()
+    {
+        LoadShop(new List<ItemType> { ItemType.Tool });
+    }
 }

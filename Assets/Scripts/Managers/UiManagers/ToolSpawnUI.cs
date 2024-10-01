@@ -20,7 +20,6 @@ public class ToolSpawnUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         }
     }
 
-    // Khi kéo chuột di chuyển biểu tượng
     public void OnDrag(PointerEventData eventData)
     {
         if (isDragging && spawnedIcon != null)

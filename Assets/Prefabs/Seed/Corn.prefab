@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3816319312969522702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4821669798535524873}
+  - component: {fileID: 3121305015200928661}
+  m_Layer: 0
+  m_Name: Corn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4821669798535524873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816319312969522702}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.7701645, y: 1.1321117, z: -10.055107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3121305015200928661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3816319312969522702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e0804fd78a9f74988dafd2b5a5c500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: 0
+  cropIcon: {fileID: 0}
+  stageSprites: []
+  growthS: 0
+  growthR: 0
+  toRealSecond: 0
+  spriteRenderer: {fileID: 0}
+  fieldInteractable: {fileID: 0}
+  foodValue: 0
+  nudaCoinValue: 0
+  witherTime: 0
+  witherTimer: 0
+  witheredSprite: {fileID: 0}
+  isWithered: 0
+  stageWitheredSprites: []
+  wareHouse: {fileID: 0}
+  cropName: 
+  isFertilized: 0
+  isLackOfFarmers: 0
+  isHarvest: 0
+  itemType: 0

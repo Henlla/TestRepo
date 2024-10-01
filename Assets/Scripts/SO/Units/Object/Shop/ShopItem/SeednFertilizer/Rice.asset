@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 206892aa912ecf1459d7c523c185eab5, type: 3}
+  m_Name: Rice
+  m_EditorClassIdentifier: 
+  ItemId: 
+  ItemName: RiceSeed
+  ItemPrice: 80
+  ItemIcon: {fileID: -1123585583, guid: 743740e959ebeca4b9b69fd1ca6b9c0a, type: 3}
+  ItemType: 4

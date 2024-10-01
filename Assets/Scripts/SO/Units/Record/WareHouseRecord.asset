@@ -15,17 +15,17 @@ MonoBehaviour:
   ItemList:
   - itemName: OneTimeFertilizer
     type: 5
-    quantity: 119
+    quantity: 1122
     sprite: {fileID: 1150818266, guid: 4ba3986270f70c24c82488ee32054484, type: 3}
   - itemName: ManyTimeFertilizer
     type: 5
-    quantity: 89
+    quantity: 120
     sprite: {fileID: 0}
   - itemName: TreeManyTime
     type: 4
-    quantity: 100
+    quantity: 350
     sprite: {fileID: 21300000, guid: 63014e2a106664f469e9dbba7506708c, type: 3}
   - itemName: TreeOneTime
     type: 0
-    quantity: 500
+    quantity: 300
     sprite: {fileID: 21300000, guid: 4c66acc44bbd52c4aa8dc47cac4a760e, type: 3}

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 [CreateAssetMenu(fileName = "WareHouseRecord", menuName = "SO/WareHouseRecord")]
-public class WareHouse : ScriptableObject
+public class WareHouse : BaseRecordSO<ItemData>
 {
     public List<ItemData> ItemList;
 

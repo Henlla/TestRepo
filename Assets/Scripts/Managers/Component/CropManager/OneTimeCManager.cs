@@ -101,7 +101,6 @@ public class OneTimeCManager : CropManager
             else Debug.Log("inventory full");
         }
     }
-
     #endregion
 
 

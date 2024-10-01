@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a205fc736a6e44fbb2b91d57d8432d, type: 3}
+  m_Name: Chicken_Coop 2
+  m_EditorClassIdentifier: 
+  Name: Chicken Coop 2
+  Sprite: {fileID: 21300000, guid: 76b1e77d28149e6419f17a5afe8a1702, type: 3}
+  Prefab: {fileID: 3944232202943375084, guid: b50dcd7810b4a86458a4ca9ae8ea5d62, type: 3}
+  ObjectType: 0
+  Level: 2
+  EnclosureType: 0

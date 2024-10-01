@@ -1,9 +1,18 @@
-using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
+public class UIManager : Singleton<UIManager>
 {
-    public ClickManager clickManager;
+    [Header("Config Shop Panel")]
+    public GameObject ShopPanel;
+    public Transform ShopContainer;
+
+    [Header("Edit Mode Button")]
+    public GameObject EditModeButton;
+
+    [Header("Decorate Confirm")]
+    public GameObject DecoratePanel;
+
+    private ClickManager clickManager;
 
     public void OpenPanel()
     {

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c745dc2ab53a934cb99fe5d04321823, type: 3}
+  m_Name: CropLibrary
+  m_EditorClassIdentifier: 
+  cropPrefabs:
+  - {fileID: 161987684846552270, guid: 666a6ccdc47c3e24e8d0041a8b668839, type: 3}
+  - {fileID: 1243050166168832356, guid: 83fb9ee8cbc6dbe449a8cda7474b5ecd, type: 3}

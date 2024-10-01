@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ClickManager : MonoBehaviour
@@ -8,7 +6,6 @@ public class ClickManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-
             //FindObjectOfType<AudioManager>().Play("TapSound");
             //Vector3 hitP = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(UniversalPosition(), Vector2.zero);

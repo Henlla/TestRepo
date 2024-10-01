@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c999d4a0fec45478c51e9040061f8e, type: 3}
+  m_Name: TreeRecords
+  m_EditorClassIdentifier: 
+  treeRecords:
+  - treeId: Tree_tree block 1.2_-1260
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 1.2 (2)_25116
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (2)_25132
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 1.2 (1)_25154
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (3)_25174
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (9)_25184
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (5)_25218
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 1.2 (4)_25260
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (1)_25284
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (8)_25294
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (7)_25324
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 1.2 (3)_25366
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (6)_25376
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 1.2 (5)_25400
+    treeState: 0
+    remainingChopTime: 0
+  - treeId: Tree_tree block 2.2 (4)_25418
+    treeState: 0
+    remainingChopTime: 0
