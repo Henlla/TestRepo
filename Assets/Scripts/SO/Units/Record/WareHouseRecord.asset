@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670a86e7b393be34fbdc977538180bc8, type: 3}
+  m_Name: WareHouseRecord
+  m_EditorClassIdentifier: 
+  ItemList:
+  - itemName: OneTimeFertilizer
+    type: 5
+    quantity: 119
+    sprite: {fileID: 1150818266, guid: 4ba3986270f70c24c82488ee32054484, type: 3}
+  - itemName: ManyTimeFertilizer
+    type: 5
+    quantity: 89
+    sprite: {fileID: 0}
+  - itemName: TreeManyTime
+    type: 4
+    quantity: 100
+    sprite: {fileID: 21300000, guid: 63014e2a106664f469e9dbba7506708c, type: 3}
+  - itemName: TreeOneTime
+    type: 0
+    quantity: 500
+    sprite: {fileID: 21300000, guid: 4c66acc44bbd52c4aa8dc47cac4a760e, type: 3}
